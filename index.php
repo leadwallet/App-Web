@@ -48,7 +48,7 @@
               <!-- text based logo -->
               <!-- <a class="mu-logo" href="./index.html">Lead Wallet</a> -->
               <!-- image based logo -->
-              <a class="mu-logo" href="#">
+              <a class="mu-logo" href="./index.php">
                 <img
                   src="assets/images/91932F5C-EFDA-4BAC-9041-6B8706FC71FE.svg"
                   alt="lead"
