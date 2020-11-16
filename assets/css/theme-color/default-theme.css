@@ -39,26 +39,26 @@ Author URI : http://www.markups.io/
 }
 
 .social-media {
-	background-color: transparent;
-	display: inline;
-    float: left;
-    margin-bottom: 35px;
-    width: 100%;
+  background-color: transparent;
+  display: inline;
+  float: left;
+  margin-bottom: 35px;
+  width: 100%;
 }
 
 .social-send-msg-btn {
-    color: #555;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 14px 24px;
-    margin-top: 10px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    width: 130px;
-    color: #fff;
-    border-radius: 10px;
+  color: #555;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 14px 24px;
+  margin-top: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 130px;
+  color: #fff;
+  border-radius: 10px;
 }
 
 .mu-send-msg-btn {
@@ -70,11 +70,14 @@ Author URI : http://www.markups.io/
 }
 
 .mu-header-overlay {
-	background: linear-gradient(
-		90deg,
-		rgba(177, 18, 100, 1) 43%,
-		rgba(73, 36, 119, 1) 100%
-	  );
+  background: rgb(177, 18, 100);
+  background: linear-gradient(
+    283deg,
+    rgba(177, 18, 100, 1) 0%,
+    rgba(91, 33, 116, 1) 28%,
+    rgba(70, 25, 94, 1) 52%,
+    rgba(19, 7, 43, 1) 100%
+  );
 }
 .mu-title-dot {
   background-color: #b11264;
@@ -88,10 +91,13 @@ Author URI : http://www.markups.io/
   background-color: #b11264;
 }
 .mu-video-overlay {
+  background: rgb(177, 18, 100);
   background: linear-gradient(
-    90deg,
-    rgba(177, 18, 100, 1) 43%,
-    rgba(73, 36, 119, 1) 100%
+    283deg,
+    rgba(177, 18, 100, 1) 0%,
+    rgba(91, 33, 116, 1) 28%,
+    rgba(70, 25, 94, 1) 52%,
+    rgba(19, 7, 43, 1) 100%
   );
 }
 .mu-feature-content-right .media:hover {
@@ -109,5 +115,5 @@ Author URI : http://www.markups.io/
   > .panel-heading
   + .panel-collapse
   > .panel-body {
-  border-top-color:  #b11264;
+  border-top-color: #b11264;
 }
