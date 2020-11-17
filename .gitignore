@@ -50,3 +50,6 @@ Temporary Items
 .apdisk
 
 /vendor/
+
+# Dependencies
+node_modules
