@@ -70,14 +70,18 @@ Author URI : http://www.markups.io/
 }
 
 .mu-header-overlay {
-  background: rgb(177, 18, 100);
+  /* background: rgb(177, 18, 100);
   background: linear-gradient(
     283deg,
     rgba(177, 18, 100, 1) 0%,
     rgba(91, 33, 116, 1) 28%,
     rgba(70, 25, 94, 1) 52%,
     rgba(19, 7, 43, 1) 100%
-  );
+  ); */
+
+  background: transparent linear-gradient(180deg, #12072b 0%, #cc1962 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
 }
 .mu-title-dot {
   background-color: #b11264;

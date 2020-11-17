@@ -45,7 +45,7 @@
 
     // when click menu item overlay disappear
 
-    $('.mu-menu a').on('click', function(event) {
+    $('').on('click', function(event) {
 	   
         event.preventDefault();
         
@@ -59,7 +59,7 @@
 
 	//MENU SCROLLING WITH ACTIVE ITEM SELECTED
 
-	 $(".mu-menu a").click(function(event){
+	 $("").click(function(event){
          event.preventDefault();
          //calculate destination place
          var dest=0;
